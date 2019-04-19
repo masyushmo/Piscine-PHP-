@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ballon</title>
+    <style>
+        #blon {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: red;
+            display: block;
+            margin:  auto;
+        }
+    </style>
+    <script language="javascript">
+        var size = 200;
+        var color = ['red', 'green', 'blue'];
+        var i = 0;
+        window.onload = function() {
+            document.getElementById('blon').addEventListener('click', grow);
+            document.getElementById('blon').addEventListener('mouseout', loss);
+        }
+        function grow() {
+            size += 10;
+            if (size > 420)
+                size = 200;
+            if (i < 2)
+                i++;
+            else 
+                i = 0;
+			document.getElementById('blon').style.height = size + 'px';
+            document.getElementById('blon').style.width  = size + 'px';
+            document.getElementById('blon').style.background = color[i];
+		}
+        function loss() {
+            size -= 5;
+            if (size < 200)
+                size = 200;
+            if (i > 0)
+                i--;
+            else 
+                i = 2;
+			document.getElementById('blon').style.height = size + 'px';
+            document.getElementById('blon').style.width  = size + 'px';
+            document.getElementById('blon').style.background = color[i];
+		}
+    </script>
+</head>
+<body>
+    <div id="blon"></div>
+</body>
+</html>

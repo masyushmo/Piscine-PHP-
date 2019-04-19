@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Calculation</title>
+    <style>
+        body
+        {
+            background-color: rgb(20, 20, 20);
+        }
+       #fild 
+       {
+           background-color: rgb(58, 58, 58);
+           display: block;
+           margin: auto;
+           margin-top: 10%;
+           padding: 2%;
+           width: 60%;
+           height: 60%;
+           border-radius: 30px;
+           box-shadow: 0px 0px 50px rgb(255, 255, 255);
+       }
+       #num, #num2, #op, #try
+       {
+            display: block;
+            margin: auto;
+            width: 70%;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2.0vw;
+       }
+       #op 
+       {
+            width: 10%;
+            text-align: center;
+            background-color: rgb(255, 196, 0);
+       }
+       #try 
+       {
+            width: 30%;
+            text-align: center;
+            background-color: rgb(255, 81, 0);
+       }
+    </style>
+    <script language="javascript">
+        var res;
+        window.onload = function() {
+            setInterval("alert('Please, use me...')", 30000);
+            document.getElementById('try').addEventListener('click', calc);
+        }
+        function calc()
+        {
+            var n1 = document.getElementById('num').value;
+            var n2 = document.getElementById('num2').value;
+            if (isNaN(n1) || isNaN(n2) || n1 < 0 || n2 < 0)
+            {
+                alert("Error :(");
+                console.log("Error :(");
+                return false;
+            }
+            n1 = parseInt(document.getElementById('num').value, 10);
+            n2 = parseInt(document.getElementById('num2').value, 10);
+            if(document.getElementById('op').value == 'plus')
+                res = n1 + n2;
+            if(document.getElementById('op').value == 'minus')
+                res = n1 - n2;
+            if(document.getElementById('op').value == 'mult')
+                res = n1 * n2;
+            if(document.getElementById('op').value == 'div') {
+                if (n2 == 0) {
+                    alert("It’s over 9000!");
+                    console.log("It’s over 9000!");
+                    return;
+                }
+                else {
+                    res = n1 / n2;
+                }
+            }
+            if(document.getElementById('op').value == 'ppr') {
+                if (n2 == 0) {
+                    alert("It’s over 9000!");
+                    console.log("It’s over 9000!");
+                    return;
+                }
+                else {
+                    res = n1 % n2;
+                }
+            }
+            alert(res);
+            console.log(res);
+        }
+    </script>
+</head>
+<body>
+    <div id="fild">
+    <form name="name" action="" class="calc">
+        <input type="text" id="num">
+        <select name="op" id="op">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="mult">*</option>
+            <option value="div">/</option>
+            <option value="ppr">%</option>
+        </select>
+        <input type="text" id="num2">
+        <input type="submit" id="try" value="Try me!">
+    </form>
+    </div>
+</body>
+</html>
