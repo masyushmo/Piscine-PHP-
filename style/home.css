@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body
+{
+    background-image:url('../img/redfon.jpg');
+} 
+h1
+{
+    font-family: Impact;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -10px;
+} 
+a
+{
+    text-decoration: none;
+}
+.links-container
+{
+    position: absolute;
+    bottom: 0%;
+    border-top: 2px solid grey;
+    color: #d6970e;
+    width: 200px;
+    height: 5%;
+    max-height: 50px;
+    position: fixed;
+    background-color: rgb(255, 199, 14);
+    text-align: center;
+    padding-bottom: 3%;
+}
+.category
+{
+    background-color:  rgb(255, 199, 14);
+    font-family: Impact;
+    color: #2c3e50;
+    display: block;
+    text-indent: -9999px;
+    margin-top: 100px;
+    width: 105%;
+    height: 40%;
+    transition: .5s ease;
+}
+.category:hover
+{
+    display: block;
+    background-color: #494949de;
+    padding: 2%;
+    text-indent: 0px;
+    text-align: center;
+    border-radius: 30px;
+    width: 200%;
+    height: 75%;
+    border-radius: 20px;
+    margin-top: -30px;
+    box-shadow: 0px 5px 0px #252525;
+}
+.category:hover h1
+{
+    text-indent: 0px;
+    padding: 1%;
+    margin-bottom: 1%;
+    color: rgb(243, 243, 243);
+}
+.categories
+{
+    color: #ff8901;
+    text-align: center;
+	font-size: 1.3vh;
+	display: block;
+    width: 100%;
+}
+.showcase
+{
+    background-color: #07070796;
+    display: block;
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 5%;
+    float: right;
+    width: 75%;
+    height: 100%;
+    padding: 2%;
+}
+.basket
+{
+    background-color: #16151596;
+    display: block;
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: right;
+    width: 75%;
+    height: 100%;
+    padding: 2%;
+}
+.productcontainer
+{
+    background-color: rgba(255, 255, 255, 0.712);
+    float: left;
+	width: 28%;
+	margin: 15px;
+	margin-left: 2%;
+    padding:10px;
+    max-width: 200px;
+    min-height: 150px;
+    min-width: 150px;
+    border-radius: 10px;
+}
+.productimagecontainer
+{
+    height: 13%;
+    min-height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+}
+.prodimg
+{
+    width: 30%;
+    height: 10%;
+}
+.productscontainer a
+{
+	display: block;
+	margin-left: 10%;
+}
+.productimage
+{
+    width: 100%;
+    height: 100%;
+}
+.productcategories
+{
+	font-size: calc(3px + 0.5vh);
+	font-family: arial;
+}
+.productnamecontainer
+{
+    text-align: center;
+	font-size: calc(10px + 0.2vh + 0.2vw);
+    font-family: arial;
+    padding: 0%;
+    margin-bottom: -7%;
+    margin-top: -8%;
+}
+.productprice
+{
+    text-align: left;
+    color: green;
+    font-size: calc(10px + 0.2vh + 0.2vw);
+    font-family: arial;
+    padding: 0%;
+    margin-bottom: -10%;
+}
+
+#logo
+{
+    padding: 16%;
+    width: 70%;
+}
+#register
+{
+    display: inline-block;
+    margin: auto;
+    margin-top: 10%;
+    width: 20%;
+    padding-right: 15%;
+}
+#login
+{
+    display: inline-block;
+    margin: auto;
+    margin-top: 10%;
+    width: 20%;
+}
+#logoutadm
+{
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 3%;
+    width: 20%;
+    transform: rotate(180deg);
+}
+#logout
+{
+    display: inline-block;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: -4%; 
+    width: 22%;
+    transform: rotate(180deg);
+}
+#adm
+{
+    display: inline-block;
+    margin: auto;
+    padding-left: 18%;
+    margin-top: 10%;
+    width: 23%;
+}
+#basket
+{
+    display: block;
+    margin: auto;
+    margin-top: 95%;
+    width: 50%;
+}
+#free
+{
+    display: block;
+    margin: auto;
+    margin-top: 370%;
+    width: 50%;
+}
+#confirm
+{
+    margin: auto;
+    position: fixed;
+    right: 10%;
+    top: 3%;
+    width: 7%;
+    float: right;
+    min-width: 50px;
+}
+#add
+{
+    display: block;
+    float: right;
+    margin-top: -16%;
+    width: 18%;
+}
+#tab
+{
+    background-color:rgb(19, 19, 19);
+    width: 200px;
+    height: 100%;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    position: fixed;
+}
+#bask
+{
+    text-align: center;
+    margin-top: -1%;
+}
+#total
+{
+    background-color: rgb(44, 44, 44);
+    padding: 0.5%;
+    position: fixed;
+    border-radius: 5px;
+    font-size: 2vh;
+    top: 200px;
+    left: 1%;
+    text-decoration: underline;
+    color: rgb(2, 177, 2);
+    font-size: 1.3vh;
+}
