@@ -1,0 +1,246 @@
+
+body{
+    width:100%;
+    margin:auto;
+    background-color: rgb(80,80,80);
+  }
+  p{
+      font-size: 0.8vw;
+      padding-left: 2%;
+      font-family: Verdana;
+      margin-top: -0.1%;
+      padding-top: 1%;
+  }
+  form
+  {
+      margin-top: -3%;
+  }
+  .gray-block
+  {
+    background-color:rgb(144,144,144);
+    box-shadow: 7px 7px 5px;
+    border-radius: 5px;
+  }
+  .top-block
+  {
+    width:74%;
+    height:auto;
+    margin:auto;
+    margin-top: 1%;
+    padding: 1%;
+  }
+  .midle
+  {
+    display: inline-block;
+    width:75%;
+    height:50%;
+    margin-left:14%;
+    margin-top:1.2%;
+  }
+  .right-box
+  {
+    width: 3%;
+    height:auto;
+    float: right;
+  }
+  .left-block
+  {
+    width:8%;
+    height:auto;
+    padding:1%;
+    float:left;
+    padding-bottom:2%;
+  }
+  .mid-block
+  {
+    float: left;
+    width: 72%;
+    margin-left: 2%;
+    z-index: 1;
+  }
+  .right-block
+  {
+    margin-left: 2%;
+    width:8%;
+    height: auto;
+    float:left;
+    padding:1%;
+    padding-bottom: 12.3%;
+  }
+  .green-block
+  {
+    display: inline-block;
+    background-color: rgb(165,251,150);
+    width: 28%;
+    height: 7%;
+    margin-left: 10%;
+    margin-top: -10%;
+    box-shadow: 5px 5px 5px;
+    border-radius: 5px;
+  }
+  #day42
+  {
+    display:inline-block;
+    width:31%;
+  }
+  #close
+  {
+    width: 55%;
+    display: block;
+    margin-top: 210%;
+    margin-left: 60%;
+  }
+  #reload
+  {
+    width: 55%;
+    display: block;
+    margin-left: 60%;
+    margin-top: -15%;
+  }
+  #loupe
+  {
+    width:15%;
+    margin-left:35%;
+    position: absolute;
+  }
+  #Advance, #Take, #Use, #Speak, #book
+  {
+    display:block;
+    width:60%;
+    margin:auto;
+    margin-top:10%;
+  }
+  #Advance:hover
+  {
+    display:block;
+    width:100%;
+    margin:auto;
+    margin-top:10%;
+  }
+  #Take:hover
+  {
+    display:block;
+    width:100%;
+    margin:auto;
+    margin-top:10%;
+  }
+  #Use:hover
+  {
+    display:block;
+    width:100%;
+    margin:auto;
+    margin-top:10%;
+  }
+  #Speak:hover
+  {
+    display:block;
+    width:100%;
+    margin:auto;
+    margin-top:10%;
+  }
+  #Look:hover
+  {
+    display:block;
+    width:100%;
+    margin:auto;
+    margin-top:10%;
+  }
+  #Advance, #book
+  {
+      margin-top: -1%;
+  }
+  #Look
+  {
+    border: 3px solid red;
+    border-radius: 3px;
+    display:block;
+    width:60%;
+    margin:auto;
+    margin-top:5%;
+  }
+  #cluster
+  {
+    width:98%;
+    display:block;
+    margin:1%;
+    height:98%;
+  }
+  #ikea
+  {
+      width:12%;
+      height: 10vw;
+      float: left;
+      margin-top: -25%;
+      margin-left: 32%;
+      position: relative;
+  }
+  #apple
+  {
+      width:20%;
+      height: 8vw;
+      float: right;
+      margin-top: -25%;
+      margin-right: 2%;
+      position: relative;
+  }
+  #towel
+  {
+    display:block;
+    width:60%;
+    margin:auto;
+    margin-top:10%;
+    padding-bottom: 10%;
+  }
+  #back
+  {
+    transform: rotate(180deg);
+    width:5%;
+    margin-left:1%;
+    margin-top: -27%;
+    position: absolute;
+  }
+  .wall
+  {
+    background-image: url("resources/brick.jpg");
+    background-size: 27%;
+    display: block;
+  }
+  #bleng
+  {
+    visibility: hidden;
+    width: 60%;
+    display: block;
+  }
+  #oro
+  {
+    text-shadow:4px 4px 4px red;
+  }
+  #lol
+  {
+    font-size: 1.6vw;
+    font-family: Georgia;
+  }
+  #franch
+  {
+    font-style: italic;
+  }
+  #texic
+  {
+    display:inline-block;
+    margin-left: 2%;
+    margin-top: -100%;
+    width:68%;
+    height:10%;
+    font-size: 0.7vw;
+    margin-bottom: 12%;
+  }
+  #button
+  {
+    border: 1px solid rgb(136, 135, 135);
+    border-radius: 1px;
+    height: 10%;
+    vertical-align: center;
+    display:inline-block;
+    width:18%;
+    font-size: 0.7vw;
+  }

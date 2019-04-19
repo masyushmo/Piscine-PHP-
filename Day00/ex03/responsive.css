@@ -1,0 +1,115 @@
+body
+{
+	width: 100%;
+	background-image: url(https://i.pinimg.com/originals/40/41/0f/40410fabb863a7f66982f168cdeec1cb.jpg);
+	background-size: 120%;
+}
+p
+{
+    margin:3px;
+}
+h1
+{
+	font-size:5vw;
+	text-align: center;
+	color: wheat;
+}
+h2
+{
+	text-align:center;
+	margin: 2px;
+	font-size:1.5vw;
+	color: white;
+}
+table
+{
+	width:90%;
+	margin: auto;
+}
+td
+{
+	width: 4%;
+	height: 4%;
+}
+.clean
+{
+	border: none;
+}
+.Alkali_metal
+{
+	background-color: rgb(251, 255, 0, 0.3);
+	border: 3px solid rgb(251, 255, 0);
+	border-radius: 2px;
+}
+.Alkaline_earth_metal
+{
+	background-color: rgb(182, 42, 40, 0.3);
+	border: 3px solid rgb(182, 42, 40);
+	border-radius: 2px;
+}
+.Lan­thanide
+{
+	background-color: rgb(138, 43, 226, 0.3);
+	border: 3px solid blueviolet;
+	border-radius: 2px;
+}
+.Actinide
+{
+	background-color: rgb(255, 68, 0, 0.3);
+	border: 3px solid rgb(255, 68, 0);
+	border-radius: 2px;
+}
+.Transition_metal
+{
+	background-color: rgb(173, 255, 47, 0.3);
+	border: 3px solid greenyellow;
+	border-radius: 2px;
+}
+.Post-​Transition_metal
+{
+	background-color: rgb(133, 133, 133, 0.3);
+	border: 3px solid rgb(133, 133, 133);
+	border-radius: 2px;
+}
+.Metalloid
+{
+	background-color: rgb(255, 105, 180, 0.3);
+	border: 3px solid  hotpink;
+	border-radius: 2px;
+}
+.Noble_gases
+{
+	background-color:  rgb(255, 165, 0, 0.3);
+	border: 3px solid orange;
+	border-radius: 2px;
+}
+.Unknown
+{
+	background-color: rgb(233, 214, 214, 0.3);
+	border: 3px solid rgb(233, 214, 214);
+	border-radius: 2px;
+}
+.Halogens
+{
+	background-color: rgb(127, 255, 212, 0.3);
+	border: 3px solid aquamarine;
+	border-radius: 2px;
+}
+.Other_nonmetals
+{
+	background-color: rgb(0, 255, 247, 0.3);
+	border: 3px solid rgb(0, 255, 247);
+	border-radius: 2px;
+}
+.mass
+{
+	text-align: right;
+	font-size: 1vw;
+	color: white;
+}
+.number
+{
+	text-align: left;
+	font-size: 1.3vw;
+	color: white;
+}

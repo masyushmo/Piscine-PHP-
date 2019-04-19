@@ -1,0 +1,93 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- scumm.html                                         :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: mmasyush <mmasyush@student.unit.ua>        +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2019/04/02 08:49:13 by mmasyush          #+#    #+#            -->
+<!-- Updated: 2019/04/02 08:49:13 by mmasyush         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="scumm.css">
+		<script language="javascript">
+			function change()
+			{
+				if(document.getElementById("cluster").src == "http://cyberland.c.y.pic.centerblog.net/o/ec88d484.jpg") 
+				{
+					document.getElementById("cluster").src = "https://govzalla.com/wp-content/uploads/2017/06/1-URh4D_6vn85u_-KbBwW-Cw-600x300-c-default.jpeg";
+				}
+				else if(document.getElementById("cluster").src == "https://govzalla.com/wp-content/uploads/2017/06/1-URh4D_6vn85u_-KbBwW-Cw-600x300-c-default.jpeg")
+				{
+					document.getElementById("cluster").src = "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjeanbaptiste%2Ffiles%2F2016%2F05%2FIMG_4797-1200x720.jpg";
+				}
+			}
+		</script>
+		<script language="javascript">
+			function back()
+			{
+				if(document.getElementById("cluster").src == "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjeanbaptiste%2Ffiles%2F2016%2F05%2FIMG_4797-1200x720.jpg") 
+				{
+					document.getElementById("cluster").src = "https://govzalla.com/wp-content/uploads/2017/06/1-URh4D_6vn85u_-KbBwW-Cw-600x300-c-default.jpeg";
+				}
+				else if(document.getElementById("cluster").src == "https://govzalla.com/wp-content/uploads/2017/06/1-URh4D_6vn85u_-KbBwW-Cw-600x300-c-default.jpeg")
+				{
+					document.getElementById("cluster").src = "http://cyberland.c.y.pic.centerblog.net/o/ec88d484.jpg";
+				}
+			}
+		</script>
+		<script>
+			function play()
+			{
+				 var audio = document.getElementById("audio");
+				 audio.play();
+			}
+		</script>
+		<title>Day 42</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<div class="gray-block top-block">
+			<img src="resources/day_of_the_42.png" alt="day of the 42" id="day42" onclick="play()">
+			<audio id="audio" src="http://www.tannerhelland.com/dmusic/KingOfTheDesert.ogg" ></audio>
+			<img src="resources/loupe.png" alt="loupe" id="loupe">
+			<div class="right-box">
+				<a href="https://www.disneyinternational.com/" target="_blank"><img src="resources/reload.png" alt="reload" id="reload"></a>
+				<a href="https://www.relaischateaux.com./" target="_blank"><img src="resources/close.gif" alt="close" id="close"></a>
+			</div>
+		</div>
+		<div class="midle">
+			<div class="gray-block left-block">
+				<img src="resources/arrow.png" alt="Advance”" title="Advance" id="Advance">
+				<img src="resources/main.png" alt="Take" title="Take" id="Take">
+				<img src="resources/oeil.png" alt="“Look”" title="Look" id="Look">
+				<img src="resources/outil.png" alt="Use”" title="Use" id="Use">
+				<img src="resources/chat-icon.png" alt="Speak”" title="Speak" id="Speak">
+			</div>
+			<div class="gray-block mid-block">
+				<img src="http://cyberland.c.y.pic.centerblog.net/o/ec88d484.jpg" alt="cluster" title="Cluster" id="cluster" onclick="change()">
+				<a href="https://www.ikea.com/" target="_blank" id="ikea"></a>
+				<a href="https://www.apple.com/" target="_blank" id="apple"></a>
+				<img src="https://www.freeiconspng.com/uploads/green-arrow-png-2.png" alt="Back" title="Go back" id="back" onclick="back()">
+			</div>
+			<div class="gray-block right-block">
+				<img src="resources/book.png" alt="book" title="Read" id="book" onclick="">
+				<img src="resources/towel.png" alt="towel" title="Wash" id="towel">
+				<div class="wall" title="Build">
+					<img src="resources/brick.jpg" alt="brick" id="bleng">
+				</div>
+			</div>
+		</div>
+		<div class="green-block">
+			<p>Vous <span id="lol">enterez</span> alors dans une grande piece remplie <br> d'<span id="oro">ordinateurs</span>... <br><span id="franch"> - Bonjour, vous êtes nouveau ici ?</span></p>
+			<form action="https://www.google.com.ua/?hl=ru" target="_blank">
+				<input type="text" id="texic">
+				<input type="submit" value="Repondre" id="button">
+			</form>
+		</div>
+	</body>
+</html>
